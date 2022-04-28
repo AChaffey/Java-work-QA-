@@ -1,0 +1,7 @@
+package com.qa.demo;
+
+public interface Inter2 {
+
+	public default void method2() {
+	}
+}

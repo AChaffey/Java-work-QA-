@@ -1,0 +1,17 @@
+package com.qa.demo;
+
+public class Bingbong1 implements Inter1, Inter2{
+
+	 public void method() {
+		 System.out.println("interface ting"); 
+		 
+	 }
+		 public void method2() {
+			 System.out.println("interface ting 2");
+		 }
+		 
+		 public void method3() {
+			 System.out.println("Interface ting 3");
+		 }
+		 
+}

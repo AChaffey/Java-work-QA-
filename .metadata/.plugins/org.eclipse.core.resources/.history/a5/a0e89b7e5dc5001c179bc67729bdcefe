@@ -1,0 +1,62 @@
+package com.qa.demo;
+
+public class Blackjack {
+
+	
+	public static void main(String[] args) {
+		
+blackJack();
+
+		
+		
+	}
+	
+	public static void blackJack() {
+		
+		int num1 = 50;
+		int num2 = 20;
+		
+		if (num1 >21 && num2<21) {
+		System.out.println(0);
+	} {
+		
+	}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+

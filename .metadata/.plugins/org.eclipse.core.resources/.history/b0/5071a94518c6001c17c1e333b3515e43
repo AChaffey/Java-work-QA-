@@ -1,0 +1,11 @@
+package com.qa.demo;
+
+public class StringManipulation {
+public static void main(String[] args) {
+	
+	String  str1 = new String ("yesterday it was raining");
+	String  str2 = new String ("today it is sunny");
+	
+	System.out.println(str1.toUpperCase()+", "+str2.toUpperCase());
+}
+}

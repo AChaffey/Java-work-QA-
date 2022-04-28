@@ -1,0 +1,28 @@
+package com.qa.demo;
+
+public class HelloWorld {
+	
+//	access modifier // static/non-static // return type // name of the method // parameters
+	public static void main(String[] args) {
+		
+//		
+//		// PRIMATIVE DATA TYPES
+//		
+//		boolean boolie = true;
+//		byte num1 = 1;
+//		char char1 = 'b';
+//		short num2 = 2;
+//		int num3 = 3;
+//		long num4 = 4L;
+//		float num5 = 3.52f;
+//		double num6 = 6.5d;
+//		
+//			// NOT A PRIMATIVE DATA TYPE
+//		
+//		String string = "Hello";
+//		
+		int num1 = 2;
+		int num2 = 3;
+		System.out.println(num1>num2);
+	}
+}

@@ -1,0 +1,46 @@
+package com.qa.demo;
+
+public class HelloWorld {
+	
+
+//	access modifier // static/non-static // return type // name of the method // parameters
+	public static void main(String[] args) {
+		
+		add();
+		sub();
+		Div();
+	}
+//	Adding numbers together
+	public static void add() {
+		int num1 = 3;
+		int num2 = 6;
+		int sum=(num1+ num2);
+		
+		System.out.println(sum);
+
+	
+	}
+	
+
+	
+//	Subtracting numbers together
+	public static void sub() {
+		int num1 = 10;
+		int num2 = 6;
+		int sum=(num1-num2);
+		
+		System.out.println(sum); }
+	
+	
+	public static void Div() {
+		int num1 = 50;
+		int num2 = 5;
+		int sum=(num1/num2);
+		
+		System.out.println(sum); }
+	
+	
+	
+}
+
+

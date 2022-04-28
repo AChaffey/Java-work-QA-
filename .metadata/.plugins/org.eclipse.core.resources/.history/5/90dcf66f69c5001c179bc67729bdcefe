@@ -1,0 +1,11 @@
+package com.qa.demo;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		
+		int[] ageArray = {16, 12, 3, 4, 64 ,35 ,35 ,76 ,47, 50};
+			System.out.println();
+		
+	}
+}

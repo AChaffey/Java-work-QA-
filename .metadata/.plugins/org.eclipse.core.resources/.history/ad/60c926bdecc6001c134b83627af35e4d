@@ -1,0 +1,12 @@
+package com.qa.demo;
+
+public interface Inter1 {
+
+	public default void method() {
+	
+	}
+	
+	
+
+	}
+

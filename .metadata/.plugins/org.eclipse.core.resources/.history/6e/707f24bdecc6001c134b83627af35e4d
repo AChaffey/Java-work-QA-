@@ -1,0 +1,8 @@
+package com.qa.demo;
+
+	public interface Inter3 {
+
+	public default void Method3() {
+	System.out.println("interface ting 3");
+	}
+}

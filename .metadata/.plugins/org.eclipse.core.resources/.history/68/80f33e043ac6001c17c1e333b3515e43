@@ -1,0 +1,37 @@
+package com.qa.demo;
+
+public class person {
+
+		String height;
+		String name;
+		double shoesize;
+		String jobtitle; 
+		double age;
+		
+	
+	
+
+
+
+
+	public person(String height, String name, double shoesize, String jobtitle, double age) {
+		
+		this.height = height;
+		this.name = name;
+		this.shoesize = shoesize;
+		this.jobtitle = jobtitle;
+		this.age = age;
+	}
+
+	public person(String height, String name) {
+		super();
+		this.height = height;
+		this.name = name;
+	}
+	public void greet () {
+		System.out.println(name);
+	}
+	
+	public void greeter() {
+	}
+}

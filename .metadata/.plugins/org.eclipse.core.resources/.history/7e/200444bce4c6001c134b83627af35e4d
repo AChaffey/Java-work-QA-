@@ -1,0 +1,14 @@
+package resturant;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Food meal = new Food();
+		Burger bigmac = new Burger();
+		
+		bigmac.getClass();
+	}
+	
+	
+
+}

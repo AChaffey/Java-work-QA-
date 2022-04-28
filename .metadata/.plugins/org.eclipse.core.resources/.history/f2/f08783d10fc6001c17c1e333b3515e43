@@ -1,0 +1,32 @@
+package com.qa.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo {
+
+	
+	public static void main(String[] args) {
+		
+		sandwich();
+		
+		
+	}
+		
+
+		public static void sandwich() {
+		
+		List<String> sandwiches = new ArrayList<>();
+		
+		sandwiches.add("Bread");
+		sandwiches.add("Ham");
+		sandwiches.add("Cheese");
+		sandwiches.add("Lettice");
+		sandwiches.add("Tomato");
+		sandwiches.add("Cucumber");
+		
+		sandwiches.set(6, "Bacon");
+		
+		System.out.println(sandwiches);
+	}
+}

@@ -1,0 +1,24 @@
+package com.qa.demo;
+
+public class person {
+
+
+	public static void main(String[] args) {
+		
+		String height= "5ft 4";
+		String name = "Steve";
+		double shoesize = 9.5;
+		String jobtitle = "Bin man";
+		double age = 32;
+		
+	
+	}
+	
+	public person(String height, String name, double shoesize, String jobtitle, double age) {
+		System.out.println(name);
+		
+		
+	
+	}
+	
+}

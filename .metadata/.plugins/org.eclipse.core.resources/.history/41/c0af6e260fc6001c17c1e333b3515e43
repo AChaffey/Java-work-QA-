@@ -1,0 +1,28 @@
+package com.qa.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo {
+
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+		public static void sandwhich() {
+		
+		List<String> sandwhiches = new ArrayList<>();
+		
+		sandwhiches.add("Bread");
+		sandwhiches.add("Ham");
+		sandwhiches.add("Cheese");
+		sandwhiches.add("Lettice");
+		sandwhiches.add("Tomato");
+		sandwhiches.add("Cucumber");
+		
+		System.out.println(sandwhiches);
+	}
+}

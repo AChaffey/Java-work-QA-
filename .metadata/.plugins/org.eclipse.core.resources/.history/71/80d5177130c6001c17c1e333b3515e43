@@ -1,0 +1,52 @@
+package com.qa.demo;
+
+public class Flowcharts {
+
+	public static void main(String[] args) {
+		flowChart(300);
+	}
+
+	public static void flowChart(int A) {
+
+		if (A>2000) {
+			System.out.println("A");	
+			if (A>6000) {
+				System.out.println("C");
+				System.out.println("End");			
+			} else if (A<6000); { 
+					System.out.println("B");
+				if (A<4000); {
+						System.out.println("D");
+						System.out.println("End");
+						
+				}
+				
+				else {
+				System.out.println("E");
+				System.out.println("End");
+		}
+	}
+	} 			else if (A<2000); {
+		System.out.println(1); 
+		 if (A>100); {
+			System.out.println(3);
+			if  (A>600); {
+		System.out.println(3);
+			}	else if (A<600); {
+				System.out.println(4);
+			 if (A>500); {
+				System.out.println(6);
+				System.out.println("End");
+			} else {
+				System.out.println(7);
+				System.out.println("End");
+			}
+			}		else if (A<100); {
+				System.out.println(2);
+				System.out.println("End");
+			}
+		}
+	}
+} 
+
+

@@ -1,0 +1,14 @@
+package com.qa.demo;
+
+public class Runner1 {
+
+	public static void main(String[] args) {
+		
+		Bingbong1 class1= new Bingbong1();
+		
+		class1.method2();
+		
+
+	}
+
+}

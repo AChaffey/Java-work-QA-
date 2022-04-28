@@ -1,0 +1,18 @@
+package com.qa.demo;
+
+public abstract class Abstracto {
+	
+
+
+
+	
+	public void mod1() {
+		System.out.println("hi there");
+		
+	}
+	
+	public void mod2() {
+		System.out.println("Yo myyy guyyy");
+	}
+	}
+

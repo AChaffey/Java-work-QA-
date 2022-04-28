@@ -1,0 +1,17 @@
+package com.qa.demo;
+
+public class Encapsulation {
+
+	public static void main(String[] args) {
+		
+		Runner example = new Runner();
+		
+		example.setArrowsize(23.5f);
+		example.setNHSnumber( "NHS45678");
+		example.setPassportnumber(345678);
+		example.setScore(73.1);
+		
+		System.out.println(example.getArrowsize() + example.getNHSnumber() + example.getPassportnumber() + example.getScore());
+		System.out.println();
+	}
+}

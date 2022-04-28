@@ -1,0 +1,56 @@
+package com.qa.demo;
+
+public class Runner {
+	
+	private int passportnumber;
+	private String NHSnumber;
+	private double score;
+	private float arrowsize;
+	
+	public Runner(int passportnumber, String nHSnumber, double score, float arrowsize) {
+		super();
+		this.passportnumber = passportnumber;
+		NHSnumber = nHSnumber;
+		this.score = score;
+		this.arrowsize = arrowsize;
+	}
+	
+	public Runner() {
+		super();
+	}
+
+	public int getPassportnumber() {
+		return passportnumber;
+	}
+
+	public void setPassportnumber(int passportnumber) {
+		this.passportnumber = passportnumber;
+	}
+
+	public String getNHSnumber() {
+		return NHSnumber;
+	}
+
+	public void setNHSnumber(String nHSnumber) {
+		NHSnumber = nHSnumber;
+	}
+
+	public double getScore() {
+		return score;
+	}
+
+	public void setScore(double score) {
+		this.score = score;
+	}
+
+	public float getArrowsize() {
+		return arrowsize;
+	}
+
+	public void setArrowsize(float arrowsize) {
+		this.arrowsize = arrowsize;
+	}
+	
+	}
+
+

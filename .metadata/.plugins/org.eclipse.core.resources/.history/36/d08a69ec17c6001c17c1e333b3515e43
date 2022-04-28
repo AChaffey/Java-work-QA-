@@ -1,0 +1,11 @@
+package com.qa.demo;
+
+public class StringManipulation {
+public static void main(String[] args) {
+	
+	String  yesterday = new String ("yesterday it was raining");
+	String  today = new String ("today it is sunny");
+	
+	System.out.println(yesterday+ today);
+}
+}

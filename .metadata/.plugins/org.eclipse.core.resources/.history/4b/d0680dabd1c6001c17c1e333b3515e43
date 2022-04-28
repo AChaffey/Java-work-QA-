@@ -1,0 +1,16 @@
+package com.qa.demo;
+
+public class Runner {
+	
+	
+	public static void main(String[] args) {
+		person Alex = new person ("5ft", "Alex", 9.5, "Bank robber", 27 );
+		person Jehad = new person ("6ft", "Jehad", 10, "Ice-cream Man", 32);
+		person Duckee = new person ("5ft 8", "Matthew", 8.5, "Back up singer", 33);
+		person Rowan = new person ("6ft 3", "Rowan", 11, "Monk", 76);
+		
+		Alex.greet();
+		Jehad.greet2(); 
+	}
+}
+

@@ -1,0 +1,17 @@
+package com.qa.demo;
+
+public class Flowcharts {
+	
+	public static void main(String[] args) {
+		flowChart(3,3 ,false);
+		
+	}
+	
+	public static void flowChart(int A, int B, boolean bool) {
+		
+		if (bool)
+		System.out.println(A+B) ;
+		else; 
+		System.out.println(A*B);
+	
+} }

@@ -1,0 +1,26 @@
+package com.qa.demo;
+
+public class Uniquesum {
+
+	public static void main(String[] args) {
+		System.out.println(Usum(2, 2, 5));
+	}
+
+	public static int Usum(int num1, int num2, int num3) {
+
+		if (num1 == num2 || num1 == num3) {
+			return num2 + num3;
+		} else if 
+			 (num2 == num1 || num2 == num3) {
+				return num1 + num3;
+			}
+			if (num3 == num2 || num3 == num1) {
+				return num2 + num1;
+
+			} else {
+				return num1 + num2 + num3;
+
+			}
+		}
+	}
+

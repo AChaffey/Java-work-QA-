@@ -1,0 +1,24 @@
+package com.qa.demo;
+
+public class IterationDemo {
+
+	public static void main(String[] args) {
+catPrinter();
+	}
+
+//	WHILE LOOP
+	
+public static void catPrinter() {
+	int catCount = 0;
+	boolean notEnoughCats = true;
+			
+			while (notEnoughCats) {
+				System.out.println(catCount + ": Another cat");
+		catCount++;
+				if (catCount==15) { 
+					notEnoughCats = false;
+				}
+				}
+			System.out.println("Too many cats");
+}
+}

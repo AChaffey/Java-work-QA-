@@ -1,0 +1,10 @@
+package com.qa.demo;
+
+public class HelloWorld {
+	
+//	access modifier // static/non-static // return type // name of the method // parameters
+	public static void main(String[] args) {	
+		System.out.println(6);
+
+	}
+}
