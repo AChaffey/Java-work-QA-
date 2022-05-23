@@ -4,9 +4,23 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="model"/>
 		<list key="findhistory">
+			<item value="model"/>
+			<item value="Item"/>
+			<item value="equals"/>
+			<item value="Customer"/>
+			<item value="ItemController"/>
+			<item value="imspro"/>
+			<item value="itemName"/>
+			<item value="firstName"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Order"/>
+			<item value="item"/>
+			<item value="Person"/>
+			<item value="PersonDAO"/>
+			<item value="translator"/>
 		</list>
 	</section>
 </section>
